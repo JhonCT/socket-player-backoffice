@@ -41,7 +41,12 @@ export class AppComponent {
   }
 
   substract() {
+    const body = {
+      playerId: this.playerId,
+      amount: this.amount
+    };
 
+    this.playerService.addBalance({ body }).subscribe({});
   }
 
   search(): void {
