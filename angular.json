@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "socket-client"
+    }
+  },
+  "defaultProject": "socket-client",
+  "cli": {
+    "analytics": false
+  }
 }
